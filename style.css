@@ -44,7 +44,7 @@ nav {
 
 nav a {
   float: left;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 14px;
   text-decoration: none;
@@ -56,10 +56,10 @@ nav li{
 
 nav a:hover {
   background-color: #ddd;
-  color: black;
+  color: white;
 }
 
-nav a.active {
+nav a:active {
   background-color: #4CAF50;
   color: white;
 }
@@ -106,6 +106,7 @@ aside {
 }
 
 aside > a, a:visited {
+  display: block;
   text-decoration: none;
   color: black;
 }
