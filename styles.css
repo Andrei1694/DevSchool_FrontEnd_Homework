@@ -1,0 +1,225 @@
+/*---------------------------------------- 
+//                Basic Setup               //
+------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*---------------------------------------- 
+//                Header                //
+------------------------------------------*/
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/resources/healthy.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.hero-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*---------------------------------------- 
+//       Navigation Bar & Logo            //
+------------------------------------------*/
+.navbar{
+  position: absolute;
+  height: 200px;
+  background-color: black;
+}
+
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 55px;
+}
+
+.main-nav:hover {
+  text-decoration: underline;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: transparent 2px solid;
+  transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: #cf6d17 2px solid;
+}
+
+/* When using big font size we should lower the weight */
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 240%;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+
+/* BUTTONS HEADERS */
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 10px 30px;
+  /* top&bottom, left&right */
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  color: #fff;
+  transition: background-color 0.2s, border 0.2, color 0.2;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: #e67e22;
+  border: 1px solid #e67e22;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 1px solid #e67e22;
+  color: #e67e22;
+}
+
+/* HOVER AND ACTIVE */
+.btn:hover,
+.btn:active {
+  background-color: #cf6d17;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  border: 1px solid #cf6d17;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+  border: 1px solid #cf6d17;
+  color: #fff;
+}
+
+ 
+ /* Style the navbar */
+ #navbar {
+  overflow: hidden;
+  background-color: #333;
+ 
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+} 
+
+#space{
+  height: 100vh;
+}
+
+.container {
+  margin-top: 10vh;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+}
+
+aside{
+  max-width: 350px;
+}
+
+
+
+footer {
+  height: 50px;
+  color: black;
+  text-align: center;
+  background-color: #cf6d17;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;
+}
+
+article {
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding: 15px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+section {
+  padding: 20px;
+}
