@@ -1,7 +1,6 @@
 # First Homework
 Create two HTML blog pages containing the following features and elements:
-
-###Progress
+### Progress
 - [ ] a header containing navigation links to both pages and an image, accessing a link loads the corresponding page
 - [ ] a main element that has at least two articles, each article having at least one section with a heading and several paragraphs
 - [ ] at least one audio/video element in one of the articles
