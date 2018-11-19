@@ -8,7 +8,7 @@
 Prerequisites: You will need the one of the pages from the HTML assignment
 
 Using the information and resources provided in this course and an HTML page from the HTML assignment:
-
+##sda
     - [ ] Add a seamless background pattern to the body of the page
     -[ ] import and use a custom font of your choice, only for headings (h1-h6)
     -[ ] set the size of the page content so that it does not expand beyond 1600px
