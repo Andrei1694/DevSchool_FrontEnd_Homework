@@ -2,19 +2,19 @@
 ## First Homework
 Create two HTML blog pages containing the following features and elements:
 ### Progress
-- [ ] a header containing navigation links to both pages and an image, accessing a link loads the corresponding page
-- [ ] a main element that has at least two articles, each article having at least one section with a heading and several paragraphs
+- [x] a header containing navigation links to both pages and an image, accessing a link loads the corresponding page
+- [x] a main element that has at least two articles, each article having at least one section with a heading and several paragraphs
 - [ ] at least one audio/video element in one of the articles
-- [ ] an aside element that contains a list of links to the headings in the articles, accessing a link scrolls to the heading section
+- [x] an aside element that contains a list of links to the headings in the articles, accessing a link scrolls to the heading section
 - [ ] a footer containing the badge of approval for Web Accessibility from https://achecker.ca/checker and one for Markup Validation from https://validator.w3.org/
 
 ## Second Homework
 Prerequisites: You will need the one of the pages from the HTML assignment
 
 Using the information and resources provided in this course and an HTML page from the HTML assignment:
-
+### Progress
 - [ ] Add a seamless background pattern to the body of the page
-- [ ] import and use a custom font of your choice, only for headings (h1-h6)
+- [x] import and use a custom font of your choice, only for headings (h1-h6)
 - [ ] set the size of the page content so that it does not expand beyond 1600px
 - [x] style all states of the nav links, make sure the :visited state is the same as the default one, think of accessibility
 - [ ] using flexbox for the entire layout of the page, arrange the aside and main elements to be next to each other, aside on the left, main on the right
