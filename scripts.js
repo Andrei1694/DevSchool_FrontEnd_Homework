@@ -25,7 +25,7 @@ var decreasingColor = "rgba(190, 40, 40, ratio)";
 // Set things up.
 
 window.addEventListener("load", function(event) {
-  boxElement = document.querySelector("w");
+  boxElement = document.querySelector("#bg");
 
   createObserver();
 }, false);
