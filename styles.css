@@ -189,13 +189,24 @@ li {
 
 .container {
   margin-top: 10vh;
-  border: 1px solid red;
   display: flex;
   flex-direction: row;
 }
 
 aside{
   max-width: 350px;
+  padding: 20px;
+}
+
+aside a{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+aside a:hover {
+  color: red
 }
 
 
@@ -210,7 +221,6 @@ footer {
 main {
   display: flex;
   flex-direction: column;
-  border: 1px black solid;
 }
 
 article {
