@@ -1,8 +1,12 @@
 # First Homework
-## Progress
-- [ ] An uncompleted task
-- [x] A completed task
-- [ ] sad
+Create two HTML blog pages containing the following features and elements:
+###Progress
+- [] a header containing navigation links to both pages and an image, accessing a link loads the corresponding page
+- [] a main element that has at least two articles, each article having at least one section with a heading and several paragraphs
+- [] at least one audio/video element in one of the articles
+- [] an aside element that contains a list of links to the headings in the articles, accessing a link scrolls to the heading section
+- [] a footer containing the badge of approval for Web Accessibility from https://achecker.ca/checker and one for Markup Validation from https://validator.w3.org/
+
 ## Second Homework
 Prerequisites: You will need the one of the pages from the HTML assignment
 
