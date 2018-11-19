@@ -1,4 +1,5 @@
-# First Homework
+# DevSchool Homeworks
+## First Homework
 Create two HTML blog pages containing the following features and elements:
 ### Progress
 - [ ] a header containing navigation links to both pages and an image, accessing a link loads the corresponding page
