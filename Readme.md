@@ -2,10 +2,6 @@
 ## Progress
 - [ ] An uncompleted task
 - [x] A completed task
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 ### Second Homework
 
 
@@ -13,7 +9,7 @@ Prerequisites: You will need the one of the pages from the HTML assignment
 
 Using the information and resources provided in this course and an HTML page from the HTML assignment:
 
-    - [ ] add a seamless background pattern to the body of the page
+    - [ ] Add a seamless background pattern to the body of the page
     -[ ] import and use a custom font of your choice, only for headings (h1-h6)
     -[ ] set the size of the page content so that it does not expand beyond 1600px
     -[ ] style all states of the nav links, make sure the :visited state is the same as the default one, think of accessibility
