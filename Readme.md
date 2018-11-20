@@ -4,7 +4,7 @@ Create two HTML blog pages containing the following features and elements:
 ### Progress
 - [x] a header containing navigation links to both pages and an image, accessing a link loads the corresponding page
 - [x] a main element that has at least two articles, each article having at least one section with a heading and several paragraphs
-- [ ] at least one audio/video element in one of the articles
+- [x] at least one audio/video element in one of the articles
 - [x] an aside element that contains a list of links to the headings in the articles, accessing a link scrolls to the heading section
 - [ ] a footer containing the badge of approval for Web Accessibility from https://achecker.ca/checker and one for Markup Validation from https://validator.w3.org/
 
@@ -26,5 +26,5 @@ Using the information and resources provided in this course and an HTML page fro
 ### Progress
   - [x] clicking on the image from the header toggles the audio component to play/pause
   - [x] when scrolling, if a section is in the middle of the screen, change its background, when it leaves the middle of the screen, reset it to its original value
-  - [ ] add a button in the aside element that when clicked inserts a new article in the main element, at the top, inside the newly created article there should be a button, which when clicked adds a new section above itself, the section has 400 random alphabet characters. 
+  - [x] add a button in the aside element that when clicked inserts a new article in the main element, at the top, inside the newly created article there should be a button, which when clicked adds a new section above itself, the section has 400 random alphabet characters. 
 

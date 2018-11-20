@@ -17,14 +17,15 @@ button.addEventListener('click', () => {
 secondButton.addEventListener('click', () => {
   var article = document.querySelector("article");
   var section = document.createElement("section");
+  // section.setAttribute("white-space","nowrap");
   section.innerHTML = stringGen();
-  article.appendChild(section);
+  article.prepend(section);
 });
 
 function stringGen() {
   var text = " ";
 
-  var charset = "abcdefghijklmnopqrstuvwxyz0123456789";
+  var charset = "abcdefghijklmnopqrstuvwxyz";
 
   for (var i = 0; i < 400; i++)
     text += charset.charAt(Math.floor(Math.random() * charset.length));
