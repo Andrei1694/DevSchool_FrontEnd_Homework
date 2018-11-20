@@ -233,3 +233,19 @@ article {
 section {
   padding: 20px;
 }
+
+button {
+  padding: 15px;
+  width: 80%;
+  border-radius: 15px;
+  background-color: #cf6d17;
+  font-size: 20px;
+}
+
+button:hover {
+  padding: 15px;
+  width: 80%;
+  border-radius: 15px;
+  background-color: #e67e22;
+  font-size: 21px;
+}

@@ -1,3 +1,22 @@
+/*--------------------------------------------------------
+//                      Audio Image
+---------------------------------------------------------*/
+var click = false;
+var audioImage = document.querySelector("audio");
+var hero = document.querySelector("#space");
+hero.addEventListener('click',()=>{
+    click = !click
+    if(click){
+      audioImage.play();
+    }else{
+      audioImage.pause();
+    }
+})
+
+
+/*--------------------------------------------------------
+//                     Change Color
+---------------------------------------------------------*/
 window.onscroll = function() {myFunction()};
 
 // Get the navbar
@@ -15,6 +34,9 @@ function myFunction() {
   }
 } 
 
+/*--------------------------------------------------------
+                Change Color
+---------------------------------------------------------*/
 var numSteps = 20.0;
 
 var boxElement;
